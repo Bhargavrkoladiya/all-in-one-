@@ -22,6 +22,5 @@ jobs:
 
       - name: Build and push frontend
         run: |
-          docker build -t yourdockerhub/frontend ./frontend
-          docker tag yourdockerhub/frontend yourdockerhub/frontend:latest
-          docker push yourdockerhub/frontend:latest
+          docker build -t bhargavrkoladiya/allinone:latest
+          docker push bhargavrkoladiya/allinone:latest
